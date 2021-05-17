@@ -12,7 +12,7 @@ import io.netty.handler.codec.string.StringDecoder;
 public class Server {
     public static void main(String[] args) {
 
-        //1.Netty的启动器
+        //1.Netty的 启动器
         new ServerBootstrap()
 
                 .group(new NioEventLoopGroup()) //2.建立事件组
